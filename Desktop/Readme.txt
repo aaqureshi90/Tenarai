@@ -1,0 +1,1 @@
+Place desktop application files/folders under this folder.

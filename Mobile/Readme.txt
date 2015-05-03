@@ -1,0 +1,1 @@
+Place mobile application files/folders under this folder.
