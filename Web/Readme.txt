@@ -1,0 +1,1 @@
+Place web application files/folders under this folder.
