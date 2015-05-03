@@ -1,0 +1,29 @@
+IF OBJECT_ID ('dbo.fnc_login_is_valid') IS NOT NULL
+   DROP FUNCTION dbo.fnc_login_is_valid
+GO
+
+CREATE FUNCTION dbo.fnc_login_is_valid (@in_username			DT_USERNAME,
+										@in_password_encrypted	DT_PASSWORD)
+RETURNS DT_YESNO
+
+AS
+-- place the body of the function here
+BEGIN
+	DECLARE @login_validated DT_YESNO
+
+     IF EXISTS (SELECT *
+				FROM tblUser
+				WHERE usr_USERNAME = @in_username
+				AND usr_PASSWORD_ENCRYPTED = @in_password_encrypted)
+	BEGIN
+		SELECT @login_validated = 'Y'
+	END
+	ELSE
+	BEGIN
+		SELECT @login_validated = 'N'
+	END
+	
+	RETURN @login_validated
+END
+GO
+
