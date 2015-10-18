@@ -1,0 +1,105 @@
+body {
+}
+
+li{
+    display:inline-block;
+    list-style-type: none;
+}
+
+.DivClass
+{
+   display:inline-block;
+   background-color:rebeccapurple;
+   border-color:black;
+}
+
+.ButtonStyle
+{  
+    font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-size:2em;
+    font-weight:bold;
+    text-align:center;
+    color:darkgreen;
+    background-color:white;    
+
+    text-decoration:none;
+    margin-top:0.45em;
+    margin-right:0.2em;
+
+    padding:20px;
+
+    border-radius:50%;
+
+    width:100px;
+
+    float: left;    
+}
+
+.ButtonClicked
+{  
+    font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-size:2em;
+    font-weight:bold;
+    text-align:center;
+    color:darkgreen;
+    background-color:darkorange;
+
+    text-decoration:none;
+    margin-top:0.45em;
+    margin-right:0.2em;
+
+    padding:20px;
+
+    border-radius:50%;
+
+    width:100px;
+
+    float: left;    
+}
+
+.cascade
+{
+    white-space:nowrap;
+}
+
+.ButtonStyle:hover
+{
+    background-color:lightgreen;
+}
+
+.KanjiButton
+{  
+    font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-size:1.4em;
+    font-weight:500;
+    text-align:center;
+    color:#296AAB;
+    background-color:#E6E6E6;    
+
+    text-decoration:none;
+    margin-top:0.45em;
+    margin-left:0.4em;
+
+    padding:10px;
+    border-radius:50%;
+    border: 3px solid #5E7E9E;
+    
+}
+
+.KanjiButton:hover
+{
+    background-color:lightblue;
+}
+
+div.header {
+    background-color:#2EB8E6;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+
+.TextStyle
+{
+    font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-size:2em;
+}
